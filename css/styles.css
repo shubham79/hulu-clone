@@ -100,7 +100,7 @@ nav ul li button:hover {
     #0d3640 49.72%,
     #08141f 100%
   );
-  height: 20vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: row;
 }
@@ -238,4 +238,46 @@ nav ul li button:hover {
   text-align: left !important;
   padding-top: 0px !important;
   margin: 0 !important;
+}
+
+@media (max-width: 500px) {
+  #bannerText img {
+    height: 160px;
+  }
+  nav ul li button {
+    padding: 30px 38px;
+  }
+  #bannerText a {
+    padding: 15px 50px;
+  }
+  #bannerText p {
+    font-size: 13px;
+  }
+  #bundle {
+    flex-wrap: wrap;
+  }
+  #bundle img,
+  #bundleCTA {
+    width: 100%;
+  }
+  #bundleText {
+    padding: 40px 40px;
+  }
+  #bundleText p {
+    font-size: 1.5em;
+  }
+  #bundleCTA {
+    padding: 20px 0;
+  }
+  #features h1 {
+    padding-top: 15px;
+    font-size: 35px;
+  }
+  #features p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .img-container {
+    flex-direction: column;
+  }
 }
