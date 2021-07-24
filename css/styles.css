@@ -242,7 +242,7 @@ nav ul li button:hover {
 
 @media (max-width: 500px) {
   #bannerText img {
-    height: 160px;
+    height: 150px;
   }
   nav ul li button {
     padding: 30px 38px;
