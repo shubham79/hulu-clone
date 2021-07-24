@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.1)),
+    url('../img/header.jpg');
+  background-size: cover;
+  background-position: left;
+  min-height: 72vh;
+  position: relative;
+}
+
+nav {
+  overflow: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(7, 8, 12, 0.05));
+}
+
+nav ul li button {
+  text-decoration: none;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  padding: 40px 80px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+nav ul li button:hover {
+  color: #ccc;
+}
+
+#bannerText {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding: 60px 0;
+}
+
+#bannerText p {
+  color: #00ed82;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+#bannerText img {
+  height: 200px;
+  padding: 30px 0;
+}
+
+#bannerText h2 {
+  color: white;
+  font-size: 30px;
+}
+
+#bannerText a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  background: white;
+  text-transform: uppercase;
+  padding: 25px 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+#bannerText a:hover {
+  background: rgb(233, 232, 232);
+  opacity: 0.8;
+}
+
+.subText {
+  color: rgb(155, 155, 155) !important;
+  font-size: 15px !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+#bundle {
+  background: linear-gradient(
+    318.68deg,
+    #0f495c 0%,
+    #0d3640 49.72%,
+    #08141f 100%
+  );
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#bundle img {
+  width: 30%;
+  object-fit: contain;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+#bundleText {
+  padding: 40px 0;
+  flex-grow: 1;
+}
+
+#bundleText h2 {
+  color: #00ed82;
+}
+
+#bundleText p {
+  color: white;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+#bundleText a {
+  color: rgb(155, 155, 155);
+  font-size: 1.5em;
+}
+
+#bundleCTA {
+  width: 30%;
+  text-align: center;
+  padding: 60px 0;
+}
+
+#bundleCTA button {
+  padding: 25px 70px;
+  background: transparent;
+  border: 3px solid #fff;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+#bundleCTA button:hover {
+  border: 3px solid #ccc;
+}
+
+#bundleCTA span {
+  color: rgb(155, 155, 155);
+  font-size: 1em;
+  margin-top: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#features {
+  background: black;
+  height: auto;
+  text-align: center;
+}
+
+#features h2 {
+  padding-top: 8vh;
+  color: #00ed82;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+#features h1 {
+  color: white;
+  padding-top: 30px;
+  font-size: 94px;
+  text-transform: capitalize;
+}
+
+#features p {
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+  letter-spacing: 1px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.img-col {
+  flex-basis: 24%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3));
+}
+
+.layer p {
+  text-align: left !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-bottom: 0px !important;
+}
+
+.layer h2 {
+  color: white !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  font-size: 30px !important;
+  text-align: left !important;
+  padding-top: 0px !important;
+  margin: 0 !important;
+}
